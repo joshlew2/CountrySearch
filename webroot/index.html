@@ -4,10 +4,21 @@
     <meta charset="utf-8">
     <title>Countries Search</title>
     <link rel="stylesheet" href="/css/main.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   </head>
   <body>
+  	<h1>Country Search </h1>
+    <label for="name-field" id="name-label">Country Name:</label><br>
+    <input type="text" name="name-field" id="name-field">
+    <p>Or</p>
+    <label for="code-field" id="code-label">Code:</label><br>
+    <input type="text" name="code-field" id="code-field"><br><br><br>
+    <input type="submit" name="submit-btn" id="submit-btn" value="Submit"><br><br>
+
+    <div id="errors"></div>
+    <div id="results"></div>
+    <div id="summary"></div>
+
     <script src="/js/app.js"></script>
-  	<h1>Country Search Template</h1>
-  	<p>This is here to get you started.</p>
   </body>
 </html>

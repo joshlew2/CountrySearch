@@ -1,3 +1,39 @@
-/*
-This css file is a placeholder. Use this or roll your own, choice is yours.
-*/
+
+body {
+	background-color: #FDFDF6;
+}
+
+table {
+	border:1px solid #0A1D25;
+	border-collapse: collapse;
+	margin-bottom: 20px;
+	background-color: #9fc5e8;
+}
+
+table td{
+	border:1px solid #0A1D25;
+	text-align: center;
+}
+
+table th {
+	border:1px solid #0A1D25;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+ul {
+	text-align: left;
+	padding-left: 20px;
+}
+
+#errors {
+	visibility: hidden;
+}
+
+#results {
+	visibility: hidden;
+}
+
+#summary {
+	visibility: hidden;
+}
